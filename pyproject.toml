@@ -1,2 +1,11 @@
+[project]
+name = "test-safety-ladder-multi-ecosystem"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = ["app"]
+
 [tool.uv.workspace]
 members = ["app"]
+
+[tool.uv.sources]
+app = { workspace = true }
