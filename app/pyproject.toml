@@ -1,0 +1,13 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Minimal Flask app fixture for safety-ladder e2e testing"
+requires-python = ">=3.9"
+dependencies = [
+    "werkzeug==1.0.1",
+    "flask==1.1.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
